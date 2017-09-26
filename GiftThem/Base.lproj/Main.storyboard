@@ -86,7 +86,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="ICc-kF-BSm">
-                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="NI6-ZO-rY5">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="NI6-ZO-rY5">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="addGift:" destination="z5N-Eq-cdh" id="cAh-RE-cFK"/>
