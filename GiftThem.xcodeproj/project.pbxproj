@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		27CDB8DA1E63D5A80000C271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CDB8D91E63D5A80000C271 /* AppDelegate.swift */; };
-		27CDB8DC1E63D5A80000C271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CDB8DB1E63D5A80000C271 /* ViewController.swift */; };
 		27CDB8DF1E63D5A80000C271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CDB8DD1E63D5A80000C271 /* Main.storyboard */; };
-		27CDB8E21E63D5A80000C271 /* GiftThem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27CDB8E01E63D5A80000C271 /* GiftThem.xcdatamodeld */; };
 		27CDB8E41E63D5A80000C271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CDB8E31E63D5A80000C271 /* Assets.xcassets */; };
 		27CDB8E71E63D5A80000C271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CDB8E51E63D5A80000C271 /* LaunchScreen.storyboard */; };
+		27CDB8EF1E63E1320000C271 /* GiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CDB8EE1E63E1320000C271 /* GiftTableViewController.swift */; };
+		27CDB8F11E63E35B0000C271 /* GIftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CDB8F01E63E35B0000C271 /* GIftTableViewCell.swift */; };
+		27CDB8F41E63EC0F0000C271 /* GiftModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27CDB8F21E63EC0F0000C271 /* GiftModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27CDB8D61E63D5A80000C271 /* GiftThem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftThem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CDB8D91E63D5A80000C271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27CDB8DB1E63D5A80000C271 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27CDB8DE1E63D5A80000C271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27CDB8E11E63D5A80000C271 /* GiftThem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GiftThem.xcdatamodel; sourceTree = "<group>"; };
 		27CDB8E31E63D5A80000C271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27CDB8E61E63D5A80000C271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27CDB8E81E63D5A80000C271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CDB8EE1E63E1320000C271 /* GiftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftTableViewController.swift; sourceTree = "<group>"; };
+		27CDB8F01E63E35B0000C271 /* GIftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIftTableViewCell.swift; sourceTree = "<group>"; };
+		27CDB8F31E63EC0F0000C271 /* GiftModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GiftModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				27CDB8D91E63D5A80000C271 /* AppDelegate.swift */,
-				27CDB8DB1E63D5A80000C271 /* ViewController.swift */,
+				27CDB8F01E63E35B0000C271 /* GIftTableViewCell.swift */,
+				27CDB8EE1E63E1320000C271 /* GiftTableViewController.swift */,
+				27CDB8F21E63EC0F0000C271 /* GiftModel.xcdatamodeld */,
 				27CDB8DD1E63D5A80000C271 /* Main.storyboard */,
 				27CDB8E31E63D5A80000C271 /* Assets.xcassets */,
 				27CDB8E51E63D5A80000C271 /* LaunchScreen.storyboard */,
 				27CDB8E81E63D5A80000C271 /* Info.plist */,
-				27CDB8E01E63D5A80000C271 /* GiftThem.xcdatamodeld */,
 			);
 			path = GiftThem;
 			sourceTree = "<group>";
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27CDB8DC1E63D5A80000C271 /* ViewController.swift in Sources */,
+				27CDB8EF1E63E1320000C271 /* GiftTableViewController.swift in Sources */,
 				27CDB8DA1E63D5A80000C271 /* AppDelegate.swift in Sources */,
-				27CDB8E21E63D5A80000C271 /* GiftThem.xcdatamodeld in Sources */,
+				27CDB8F41E63EC0F0000C271 /* GiftModel.xcdatamodeld in Sources */,
+				27CDB8F11E63E35B0000C271 /* GIftTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,17 +310,18 @@
 				27CDB8ED1E63D5A80000C271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		27CDB8E01E63D5A80000C271 /* GiftThem.xcdatamodeld */ = {
+		27CDB8F21E63EC0F0000C271 /* GiftModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				27CDB8E11E63D5A80000C271 /* GiftThem.xcdatamodel */,
+				27CDB8F31E63EC0F0000C271 /* GiftModel.xcdatamodel */,
 			);
-			currentVersion = 27CDB8E11E63D5A80000C271 /* GiftThem.xcdatamodel */;
-			path = GiftThem.xcdatamodeld;
+			currentVersion = 27CDB8F31E63EC0F0000C271 /* GiftModel.xcdatamodel */;
+			path = GiftModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
