@@ -87,7 +87,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="ICc-kF-BSm">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="NI6-ZO-rY5">
-                            <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="addGift:" destination="z5N-Eq-cdh" id="cAh-RE-cFK"/>
                             </connections>
